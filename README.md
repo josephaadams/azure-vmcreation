@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
+<img src="https://i.imgur.com/5SeOYQQ.png" alt="osTicket logo"/>
 </p>
 
 <h1>Virtual Machine (VM) Creation Using Microsoft Azure</h1>
