@@ -40,10 +40,9 @@ Example: All resources for a web application (VM, database, storage) can be grou
 
 <h2>Creation Steps</h2>
 
-**1. Install osTicket v1.15.8**
-- Unzip osTicket-v1.15.8.zip from the installation files.
-- Copy the upload folder to C:\inetpub\wwwroot.
-- Rename upload to osTicket.
+**1. Sign in to the Azure Portal**
+- Navigate to Azure Portal.
+- Log in with your Azure account credentials.
 
 <img src="https://i.imgur.com/yxkKp2E.png"/>
   
