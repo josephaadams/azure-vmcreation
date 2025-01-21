@@ -46,22 +46,18 @@ Example: All resources for a web application (VM, database, storage) can be grou
 
 <img src="https://i.imgur.com/yxkKp2E.png"/>
   
-**2. Configure IIS**
-- Reload IIS:
-- Open IIS.
-- Stop and Start the server.
-- Go to Sites > Default > osTicket.
-- On the right, click “Browse *:80” to open osTicket in your browser.
+**2. Navigate to "Virtual Machines"**
+- In the left-hand navigation panel, select Virtual Machines. If you don’t see it, search for "Virtual Machines" in the search bar at the top.
+- Click on the + Create button and select Azure Virtual Machine.
 
 <img src="https://i.imgur.com/06iSCbJ.png"/>
 
-**3. Enable PHP Extensions**
-- In IIS, go to Sites > Default > osTicket.
-- Double-click PHP Manager.
-- Click “Enable or disable an extension” and enable:
-- php_imap.dll
-- php_intl.dll
-- php_opcache.dll
+**3. Basic Configuration**
+- Resource Group: Select an existing resource group or create a new one.
+- Virtual Machine Name: Enter a unique name for your VM (e.g., MyAzureVM).
+- Region: Choose the closest data center for your needs.
+- Image: Select the operating system for your VM (e.g., Windows Server 2022, Ubuntu 20.04).
+- Size: Pick the size of your VM based on your workload. Azure provides recommendations.
 
 <img src="https://i.imgur.com/qKDXNtr.png"/>
   
