@@ -25,7 +25,7 @@ Example: All resources for a web application (VM, database, storage) can be grou
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10</b> (21H2)
+- Windows 10</b> 
 
 <h2>List of Prerequisites</h2>
 
