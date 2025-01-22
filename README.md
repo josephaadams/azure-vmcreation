@@ -44,13 +44,13 @@ Example: All resources for a web application (VM, database, storage) can be grou
 - Navigate to Azure Portal.
 - Log in with your Azure account credentials.
 
-<img src="https://i.imgur.com/yxkKp2E.png"/>
+<img src="https://i.imgur.com/ue7Sg4V.png"/>
   
 **2. Navigate to "Virtual Machines"**
 - In the left-hand navigation panel, select Virtual Machines. If you don’t see it, search for "Virtual Machines" in the search bar at the top.
 - Click on the + Create button and select Azure Virtual Machine.
 
-<img src="https://i.imgur.com/06iSCbJ.png"/>
+<img src="https://i.imgur.com/pzEWZwy.png"/>
 
 **3. Basic Configuration**
 - Resource Group: Select the resource group we created on the prerequesites.
@@ -59,7 +59,7 @@ Example: All resources for a web application (VM, database, storage) can be grou
 - Image: Select the operating system for your VM, in this case we can use Windows 10 Pro.
 - Size: Pick the size of your VM based on your workload. You can choose Standard 2 vcpus if you are unsure.
 
-<img src="https://i.imgur.com/qKDXNtr.png"/>
+<img src="https://i.imgur.com/jSaTUM0.png"/>
   
 **4. Setup your Administrative Account**
 - Username: Create a username to log into the VM.
@@ -86,24 +86,18 @@ Example: All resources for a web application (VM, database, storage) can be grou
 **6. Review and Create**
 - Azure will validate your configuration. If everything looks good, click Create.
 - Wait for the VM deployment process to complete.
+  
+<img src="https://imgur.com/a/KgdElkB"/>
 
 **7. Access Your VM**
 - Once the VM is deployed, go to the Virtual Machines section in Azure.
 - Click on your newly created VM.
 - Use the public IP to connect to the VM via Remote Desktop Connection (RDP).
 
-
+<img src="https://i.imgur.com/4TsbIe5.png"/>
 
 **Tip:** If you are done using your VM and don't want to accrue more costs, you can go back to Azure, navigate to Virtual Machines, select the VM you just created, and click Stop. This way, all your data and work inside the VM will be saved, but you won’t be charged for compute resources while it's stopped.
 
 
-
-<p>
-<img src="https://i.imgur.com/5TZ1qmz.png"/>
-</p>
-<p>
-Congratulations on the installation of osTicket on your server! If you have any questions please make sure to check out osTickets docs https://docs.osticket.com/en/latest/
-</p>
-<br />
 
 
