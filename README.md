@@ -29,7 +29,7 @@ Example: All resources for a web application (VM, database, storage) can be grou
 
 <h2>List of Prerequisites</h2>
 
-**1. Working Computer with Internet Access** (If you don't know how to create a VM using azure, check out my guide: **********REPLACEEEEE**********)
+**1. Working Computer with Internet Access** 
 
 **2. An active Azure account. If you don't have one, create a free account here:(https://azure.microsoft.com/en-us/)**
 
@@ -53,24 +53,21 @@ Example: All resources for a web application (VM, database, storage) can be grou
 <img src="https://i.imgur.com/06iSCbJ.png"/>
 
 **3. Basic Configuration**
-- Resource Group: Select an existing resource group or create a new one.
-- Virtual Machine Name: Enter a unique name for your VM (e.g., MyAzureVM).
+- Resource Group: Select the resource group we created on the prerequesites.
+- Virtual Machine Name: Enter a unique name for your VM. 
 - Region: Choose the closest data center for your needs.
-- Image: Select the operating system for your VM (e.g., Windows Server 2022, Ubuntu 20.04).
-- Size: Pick the size of your VM based on your workload. Azure provides recommendations.
+- Image: Select the operating system for your VM, in this case we can use Windows 10 Pro.
+- Size: Pick the size of your VM based on your workload. You can choose Standard 2 vcpus if you are unsure.
 
 <img src="https://i.imgur.com/qKDXNtr.png"/>
   
-**4. Configure ost-config.php**
-- Rename the file:
-- From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
-- To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
-- Assign permissions:
-- Disable inheritance and remove all permissions.
-- Add Everyone with Full Control.
+**4. Setup your Administrative Account**
+- Username: Create a username to log into the VM.
+- Password: Enter a secure password. 
+-Tip: You can save these details into a notepad and save it n your Desktop just in case you forget them.
 
-  <img src="https://i.imgur.com/N63QY76.png"/>
-  
+<img src="https://i.imgur.com/T4KyBTx.png"/>
+ 
 **5. Set Up the Database**
 - Install HeidiSQL from the installation files.
 - Open HeidiSQL and create a new session (root/root).
