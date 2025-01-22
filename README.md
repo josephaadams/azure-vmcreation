@@ -68,22 +68,34 @@ Example: All resources for a web application (VM, database, storage) can be grou
 
 <img src="https://i.imgur.com/T4KyBTx.png"/>
  
-**5. Set Up the Database**
-- Install HeidiSQL from the installation files.
-- Open HeidiSQL and create a new session (root/root).
-- Connect to the session and create a database called osTicket.
+**5.  Advanced Configuration (Optional)**
+- If you're just setting up a simple VM, you can skip this step and move to "Review and Create." However, if you need custom settings, explore the following:
 
-<img src="https://i.imgur.com/tlwie81.png"/>
+1. **Disk Configuration**
+- Choose the OS disk type (e.g., Standard HDD, Premium SSD).
+- Add any additional data disks if required.
+2. **Networking Configuration**
+- Azure will automatically create a virtual network (VNet) and subnet. Review and modify if needed.
+- Configure public IP, network security group (NSG), and other network settings.
+3. **Additional Features**
+- Configure monitoring, backup, and auto-shutdown settings.
+- Install extensions or configure cloud-init for automation.
+
+<img src="https://i.imgur.com/EByzgGC.png"/>
   
-**6. Complete osTicket Setup in the Browser**
-- Open the osTicket installation page in your browser.
-- Provide the following details:
-- Helpdesk Name: Choose a name for your help desk.
-- Default Email: Specify an email address to receive customer tickets.
-- MySQL Database: osTicket
-- MySQL Username: root
-- MySQL Password: root
-- Click Install Now!
+**6. Review and Create**
+- Azure will validate your configuration. If everything looks good, click Create.
+- Wait for the VM deployment process to complete.
+
+**7. Access Your VM**
+- Once the VM is deployed, go to the Virtual Machines section in Azure.
+- Click on your newly created VM.
+- Use the public IP to connect to the VM via Remote Desktop Connection (RDP).
+
+
+
+**Tip:** If you are done using your VM and don't want to accrue more costs, you can go back to Azure, navigate to Virtual Machines, select the VM you just created, and click Stop. This way, all your data and work inside the VM will be saved, but you won’t be charged for compute resources while it's stopped.
+
 
 
 <p>
