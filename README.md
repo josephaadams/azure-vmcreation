@@ -87,7 +87,7 @@ Example: All resources for a web application (VM, database, storage) can be grou
 - Azure will validate your configuration. If everything looks good, click Create.
 - Wait for the VM deployment process to complete.
   
-<img src="https://i.imgur.com/i8Yd8Ut.png/>
+<img src="https://i.imgur.com/i8Yd8Ut.png"/>
 
 **7. Access Your VM**
 - Once the VM is deployed, go to the Virtual Machines section in Azure.
