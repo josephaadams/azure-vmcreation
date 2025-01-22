@@ -95,6 +95,8 @@ Example: All resources for a web application (VM, database, storage) can be grou
 - Use the public IP to connect to the VM via Remote Desktop Connection (RDP).
 
 <img src="https://i.imgur.com/4TsbIe5.png"/>
+<img src="https://i.imgur.com/nk8sHga.png"/>
+
 
 **Tip:** If you are done using your VM and don't want to accrue more costs, you can go back to Azure, navigate to Virtual Machines, select the VM you just created, and click Stop. This way, all your data and work inside the VM will be saved, but you won’t be charged for compute resources while it's stopped.
 
